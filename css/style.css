@@ -119,3 +119,11 @@ html{
 .section-do__item:not(:last-child) {
   margin-right: 32px;
 }
+
+.section-clients__list {
+  display: flex;
+}
+
+.section-clients__list_item {
+  flex: 1 1 33.33%;
+}

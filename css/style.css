@@ -20,6 +20,7 @@ html{
   font-family: sans-serif;
 }
 
+/* Header */
 .header {
   height: 110px;
 }
@@ -33,6 +34,7 @@ html{
 }
 
 .btn {
+  display: inline-block;
   background-color: #3172b9;
   color: white;
   text-transform: uppercase;
@@ -63,4 +65,57 @@ html{
 
 .header-btn {
   margin-left: 80px;
+}
+
+/* Hero */
+.section-hero-btn-description {
+  margin-top: 10px;
+}
+
+.hero-container {
+  padding-top: 125px;
+  padding-bottom: 130px;
+}
+.hero-content {
+  max-width: 50%;
+}
+
+.section-hero-heading {
+  margin-bottom: 30px;
+}
+
+.section-hero__description {
+  margin-bottom: 35px;
+}
+
+.section-hero-btn-description {
+  margin-top: 15px;
+}
+
+/* What We Do */
+.section-do {
+  padding-top: 225px;
+  padding-bottom: 200px;
+}
+
+.section-do__description {
+  padding-top: 40px;
+}
+
+.section-do__list {
+  display: flex;
+  padding-top: 55px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-do__item {
+  flex: 1 1 25%;
+  outline: solid 3px red;
+}
+
+.section-do__item:not(:last-child) {
+  margin-right: 32px;
 }

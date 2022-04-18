@@ -64,3 +64,11 @@ html{
 .header-btn {
   margin-left: 80px;
 }
+
+.section-clients__list {
+  display: flex;
+}
+
+.section-clients__list_item {
+  flex: 1 1 33.33%;
+}

@@ -127,3 +127,20 @@ html{
 .section-clients__list_item {
   flex: 1 1 33.33%;
 }
+
+.section-clients__user {
+  display: flex;
+  align-items: center;
+}
+
+.section-clients__list_item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-clients__avatar {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #3172b9;
+  border-radius: 50%;
+  margin-right: 15px;
+}

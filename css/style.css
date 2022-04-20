@@ -120,6 +120,11 @@ html{
   margin-right: 32px;
 }
 
+/* Clients */
+.section-clients {
+  margin-bottom: 160px;
+}
+
 .section-clients__list {
   display: flex;
 }
@@ -143,4 +148,50 @@ html{
   border: 2px solid #3172b9;
   border-radius: 50%;
   margin-right: 15px;
+}
+
+/* Contacts */
+.section-contacts {
+  margin-top: 70px;
+  margin-bottom: 170px;
+}
+
+.section-contacts__list {
+  margin-top: 120px;
+  display: flex;
+}
+
+.section-contacts-list-item {
+  flex: 1 1 33.33%;
+}
+
+.section-contacts-info {
+  max-width: 230px;
+}
+
+.section-contacts-icon {
+  display: block;
+  height: 26px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto 100%;
+  background-color: transparent;
+}
+
+.icon__gps {
+  background-image: url(../img/gps.png);
+}
+
+.icon__phone {
+  background-image: url(../img/phone.png);
+}
+
+.icon__mail {
+  background-image: url(../img/mail.png);
+  height: 19px;
+}
+
+.section-contacts-info {
+  margin-top: 45px;
 }
